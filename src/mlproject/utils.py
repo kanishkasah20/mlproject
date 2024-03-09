@@ -6,7 +6,7 @@ import pandas as pd
 from dotenv import load_dotenv
 import pymysql
 
-load_dotenv()
+load_dotenv() 
 
 host = os.getenv("host")
 user = os.getenv("user")
