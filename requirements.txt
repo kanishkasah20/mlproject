@@ -4,4 +4,8 @@ python-dotenv   #helps in reading the .env file environment var
 mysql-connector-python
 pymysql  #pymylsql is package contains pure-python MySQL client linrary
 scikit-learn
+seaborn
+catboost
+xgboost
+
 #-e .
