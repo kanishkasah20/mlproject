@@ -64,6 +64,9 @@ class DataTransformation:
         except Exception as e:
             raise CustomException(e,sys)
         
+# in function we provided train_path , test_path during initiate_data_transformation
+# here both path are the output we get from data ingetsion process file , which we are using it here it as input for initiate_data_transformation     
+        
     def initiate_data_transormation(self,train_path,test_path):
         try:
             train_df=pd.read_csv(train_path)
